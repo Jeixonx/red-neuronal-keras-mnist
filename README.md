@@ -4,7 +4,7 @@ Keras es una libreria para python que facilita el uso de diferentes backends par
 
 para evitar conflictos, se puede usar un ambiente virtual exclusivo para proyectos con keras
 
-```pip install virtualenv```
+`pip install virtualenv`
 
 creamos el ambiente
 ```mkvirtualenv keras```
