@@ -20,10 +20,12 @@ para trabajar en el ambiente virtual
 
 instalar prerequisitos:
 
-`$ pip install numpy scipy
+```
+$ pip install numpy scipy
 $ pip install scikit-learn
 $ pip install pillow
-$ pip install h5py`
+$ pip install h5py
+```
 
 Se pueden usar varios backends como Tensor Flow o Theano
 
@@ -37,16 +39,19 @@ Instalar keras
 
 Keras usa por defecto Tensor Flow, para cambiar la configuración, primero, hay que llamar a keras haciendo un import, para que se cree el archivo keras.json y poder modificarlo.
 
-`python
+```
+python
 >>> import keras
->>> quit()`
+>>> quit()
+```
 
 ahora hay que editar el archivo, que debería estar en ~/.keras/keras.json  
 
 y debería quedar algo así:
-``{
+```
+{
     "image_dim_ordering": "tf",
     "epsilon": 1e-07,
     "floatx": "float32",
     "backend": "tensorflow" }
-`
+```
