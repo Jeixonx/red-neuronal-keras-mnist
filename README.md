@@ -44,11 +44,9 @@ Keras usa por defecto Tensor Flow, para cambiar la configuración, primero, hay 
 ahora hay que editar el archivo, que debería estar en ~/.keras/keras.json  
 
 y debería quedar algo así:
-```
-{
+```{
     "image_dim_ordering": "tf",
     "epsilon": 1e-07,
     "floatx": "float32",
-    "backend": "tensorflow"
-}
+    "backend": "tensorflow" }
 ```
