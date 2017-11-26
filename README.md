@@ -10,7 +10,9 @@ creamos el ambiente
 `mkvirtualenv keras`
 
 si mkvirtualenv no funciona, esto puede ayudar
-`source `which virtualenvwrapper.sh` `
+```
+source `which virtualenvwrapper.sh`
+```
 
 para trabajar en el ambiente virtual
 `workon keras`
